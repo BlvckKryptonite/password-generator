@@ -1,11 +1,13 @@
 body {
     color: #fff;
     font-family: "Karla", sans-serif;
-    background-color: #1C1C1C; /* set bg here, not in .main */
+    background-color: #1C1C1C;
+    /* set bg here, not in .main */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* centers container vertically */
+    height: 100vh;
+    /* centers container vertically */
     margin: 0;
 }
 
@@ -58,10 +60,16 @@ button:hover {
     gap: 25px;
 }
 
-#div-one, 
+#div-one,
 #div-two {
     background-color: #273549;
     width: 211px;
     height: 39px;
     border-radius: 6px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #00ff88;
+    /* neon green vibes */
+    font-family: monospace;
+    margin: 10px 0;
 }
